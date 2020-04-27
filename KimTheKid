@@ -26,7 +26,7 @@ async def _(event):
             "She Is 14 Years Old",    
             "Her Name Is Kim",
             "She Is From Mars",
-            "We Call Him Kim The Kiddo",
+            "We Call Her Kim The Kiddo",
             "Tyler Hates Kim The kiddo",    
             "Peter Hates Kim The Kiddo",
             "Theresia Likes Kim The Kiddo",
