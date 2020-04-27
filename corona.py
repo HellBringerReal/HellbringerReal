@@ -6,7 +6,7 @@ import asyncio
 
 
 
-@borg.on(events.NewMessage(pattern=".corona", outgoing=True))
+@borg.on(events.NewMessage(pattern=".corna", outgoing=True))
 
 async def _(event):
 
@@ -35,7 +35,7 @@ async def _(event):
             "`Dropping Kid`",
             "`Kid is falling...`",    
             "`Kid landed on your Head`",
-            "`You have Corona Virus now` \n\n`Pay $6969 To `ɦεαrt hαckєr💞💖` To get healed`"
+            "`You have Corona Virus now` \n\n`Pay $6969 To `pєtєr pαrkєr` To get healed`"
         ]
 
     for i in animation_ttl:
