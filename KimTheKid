@@ -1,0 +1,45 @@
+from telethon import events
+
+import asyncio
+
+
+
+
+
+@borg.on(events.NewMessage(pattern=".kim", outgoing=True))
+
+async def _(event):
+
+    if event.fwd_from:
+
+        return
+
+    animation_interval = 2
+
+    animation_ttl = range(0, 14)
+
+    
+
+    animation_chars = [
+
+            "I Met A Girl",
+            "She Is 14 Years Old",    
+            "Her Name Is Kim",
+            "She Is From Mars",
+            "We Call Him Kim The Kiddo",
+            "Tyler Hates Kim The kiddo",    
+            "Peter Hates Kim The Kiddo",
+            "Theresia Likes Kim The Kiddo",
+            "Glenna Thinks Kim Don't Have Brain",
+            "Kim Use A Word Shit",
+            "Stupid Kim",
+            "Kim Is A Pest",    
+            "Pagal Hai Kim",
+            "This Was The Story Of Kim The Kiddo"
+        ]
+
+    for i in animation_ttl:
+
+        await asyncio.sleep(animation_interval)
+
+        await event.edit(animation_chars[i % 14])
